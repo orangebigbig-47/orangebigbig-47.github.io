@@ -1,7 +1,7 @@
 ---
 title: The blue and white porcelain
 categories: aesthetics
-tags: beauty;aesthetics;design
+tags: 'beauty,aesthetics,design'
 img: 'http://img.violin.site/JekyllWriter/1.jpg'
 layout: post
 ---
