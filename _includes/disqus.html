@@ -15,9 +15,9 @@
     {% endif %}
 
 <!-- Gitalk 评论 start  -->
-  <div id="gitalk-container"></div>
+  <div id="gitalk-container" class="article-comments"></div>
       <script type="text/javascript">
-      var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
+      var title = location.pathname.substr(0,50);//截取路径的前50个字符作为标识符
       var gitalk = new Gitalk({
 
       // gitalk的主要参数
@@ -26,7 +26,7 @@
       repo: 'talk',
   owner: 'orangebigbig-47',
   admin: ['orangebigbig-47 '],
-          id: title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
+          id:title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
      
       });
       gitalk.render('gitalk-container');
