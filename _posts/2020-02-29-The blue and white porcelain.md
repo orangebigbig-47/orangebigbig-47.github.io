@@ -2,7 +2,8 @@
 title: The blue and white porcelain
 categories: aesthetics
 tags: beauty;aesthetics;design
-img: '![1](http://img.violin.site/JekyllWriter/1.jpg)'
+img: 'http://img.violin.site/JekyllWriter/1.jpg'
+layout: post
 ---
 Do you kown the china,what is the blue and white porcelain's Prelife.
 Let's see their beauty.
